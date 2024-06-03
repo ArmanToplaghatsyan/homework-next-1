@@ -9,7 +9,11 @@ export default function Layout({ children }: any) {
                 <ul>
                  
                     <li>
-                        <Link href={"/"}>Show Product</Link>
+                        <Link href={"/"}>Home</Link>
+                    </li>
+                 
+                    <li>
+                        <Link href={"/Products"}>Show Product</Link>
                     </li>
                     <li>
                         <Link href={"/AddProducts/"}>Add Products</Link>
